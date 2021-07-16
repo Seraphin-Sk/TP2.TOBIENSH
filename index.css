@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    border: 1px Solid;
+    background-color: rgb(49, 48, 48);
+    height: 50px;
+}
+
+h1 {
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.liens {
+    margin-left: 250px;
+    margin-top: -23px;
+}
+
+.lien,
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    background: black;
+    padding: 15px 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+.liste {
+    margin-left: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.liste1 {
+    margin-left: 30px;
+}
+
+.liste2 {
+    margin-left: 35px;
+}
+
+.liste3 {
+    margin-left: 70px;
+}
+
+.liste4 {
+    margin-left: 110px;
+}
