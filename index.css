@@ -35,29 +35,55 @@ nav a:hover {
     padding: 15px 20px;
 }
 
+h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
 p {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-left: 130px;
+    padding-top: 15px;
 }
 
-.liste {
-    margin-left: 160px;
-    font-family: Arial, Helvetica, sans-serif;
+.video {
+    width: 360px;
 }
 
-.liste1 {
-    margin-left: 30px;
+.video1 {
+    border: 1px solid orangered;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 360px;
+    margin: 10px;
+    padding-bottom: 10px;
 }
 
-.liste2 {
-    margin-left: 35px;
+.video2 {
+    border: 1px solid rgb(243, 118, 1);
+    padding-top: 10px;
+    width: 360px;
+    margin: 10px;
+    padding-bottom: 10px;
 }
 
-.liste3 {
-    margin-left: 70px;
+.video3 {
+    border: 1px solid orangered;
+    padding-top: 10px;
+    width: 360px;
+    margin: 10px;
+    padding-bottom: 10px;
 }
 
-.liste4 {
+.videos {
+    display: inline-flex;
     margin-left: 110px;
+    margin-top: 50px;
+}
+
+label {
+    padding: 20px;
+    color: rgb(0, 60, 255)
 }
