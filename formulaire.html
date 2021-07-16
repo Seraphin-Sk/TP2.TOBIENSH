@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Tobiensh" content="zik,video,table">
+    <link rel="stylesheet" type="text/css" href="formulaire.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <title>Tobiensh Web</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1><a href="index.html">TOBIENSH WEB</a></h1>
+            <div class="liens">
+                <a class="lien" href="index.html" title="Acceuil">Acceuil</a>
+                <a class="lien" href="formulaire.html" title="Consulter notre formulaire">Formulaire</a>
+                <a class="lien" href="tableau.html" title="Consulter notre tableau">Tableaux</a>
+                <a class="lien" href="image.html" title="Consulter nos images">Images</a>
+                <a class="lien" href="liste.html" title="Consulter notre liste">Listes</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <br>
+        <p>Pour avoir accès à tous les contenus du site, vueillez vous inscrire</p>
+        <div class="formul">
+            <form action="formulaire.html"></form>
+            <div>
+                <label for="nom"><strong>Nom :</strong></label>
+                <div>
+                    <input class="input1" type="text" required id="firstname" name="firstname">
+                </div>
+            </div>
+            <br>
+            <div>
+                <label for="prenom"><strong>Prénom :</strong></label>
+                <div>
+                    <input class="input1" type="text" required id="secondname" name="firstname">
+                </div>
+            </div>
+            <br>
+            <div>
+                <label for="date"><strong>Date et Lieu de naissance :</strong></label>
+                <div>
+                    <input class="input2" type="date" required id="date" name="date">
+                    <input class="input2" type="text" required id="lieu" name="lieu" placeholder=" lieu de naissance">
+                </div>
+            </div>
+            <br>
+            <div>
+                <label for="langue"><strong>Langue </strong></label>
+                <div>
+                    <label><input type="checkbox" name="français"> Français</label>
+                    <label><input type="checkbox" name="english"> English</label>
+                    <label><input type="checkbox" name="respagnol"> Espagnol</label>
+                </div>
+            </div>
+            <br>
+            <div>
+                <label><strong>Etes-vous disponible pour emploi ?</strong></label>
+                <div>
+                    <label><input type="radio" name="oui"> Oui</label>
+                    <label><input type="radio" name="non"> Non</label>
+                </div>
+            </div>
+            <br>
+            <div>
+                <label><strong>Pays actuel</strong></label>
+                <div>
+                    <select class="input3" name="pays">
+                    <option value="RD.Congo"> RD.Congo</option>
+                    <option value="RD.Congo"> Rwanda</option>
+                    <option value="RD.Congo">Congo</option>
+                    <option value="RD.Congo">France</option>
+                    <option value="RD.Congo">Nigeria</option>
+                    <option value="RD.Congo">Bresil</option>
+                    <option value="RD.Congo">Espagne</option>
+                    <option value="RD.Congo">Uganda</option>
+                 </select>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="formul2">
+            <button class="input4" type="submit"> <strong>Envoyer</strong></button>
+            <button class="input5" type="reset"> <strong>Annuler</strong></button>
+        </div>
+    </section>
+</body>
+
+</html>
