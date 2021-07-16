@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    border: 1px Solid;
+    background-color: rgb(49, 48, 48);
+    height: 50px;
+}
+
+h1 {
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.liens {
+    margin-left: 250px;
+    margin-top: -23px;
+}
+
+.lien,
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    background: black;
+    padding: 15px 20px;
+}
+
+.formul {
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input1 {
+    padding-right: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px 5px;
+}
+
+.input2 {
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px 5px;
+}
+
+.input3 {
+    padding-right: 420px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px 5px;
+}
+
+.formul2 {
+    margin-left: 398px;
+}
+
+.input4 {
+    padding-right: 80px;
+    padding-left: 70px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 5px 5px;
+}
+
+.input5 {
+    padding-right: 80px;
+    padding-left: 70px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 5px 5px;
+    background-color: rgb(255, 95, 46);
+}
